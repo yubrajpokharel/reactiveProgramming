@@ -10,5 +10,6 @@ public class Basic {
   public static void createObservableWithJust(){
     Observable<Integer> observable = Observable.just(1, 2, 3, 4, 5);
     observable.subscribe(x -> System.out.println(x));
+
   }
 }
